@@ -1,0 +1,12 @@
+kind: pod
+appVersion: v1
+metadata: 
+  name: annotations
+  annotations: 
+    kubernetes.io/created-by: 'srikar'
+    jenkins.build.url: 'https://jenkins.daws78s.online/expense/job/backend/54'
+spec: 
+  containers: 
+  - name: nginx 
+    image: nginx
+   
